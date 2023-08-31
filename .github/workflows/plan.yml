@@ -20,6 +20,7 @@ jobs:
           setup-aws: false
           disable-locking: true
           mode: manual
+          command: digger apply
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
