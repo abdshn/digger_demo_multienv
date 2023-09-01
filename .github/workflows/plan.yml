@@ -15,12 +15,12 @@ jobs:
 
     steps:
       - name: digger run
-        uses: diggerhq/digger@develop
+        uses: diggerhq/digger@v0.1.31
         with:
           setup-aws: false
           disable-locking: true
-          mode: manual
-          command: digger plan
+          # mode: manual
+          # command: digger plan
           project: dev
           upload-plan-destination: github
         env:
