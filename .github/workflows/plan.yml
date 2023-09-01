@@ -19,7 +19,7 @@ jobs:
         with:
           setup-aws: false
           disable-locking: true
-          mode: manual
+          # mode: manual
           command: digger apply
           project: dev
         env:
