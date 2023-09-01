@@ -19,10 +19,10 @@ jobs:
         with:
           setup-aws: false
           disable-locking: true
-          mode: manual
-          command: digger plan
-          project: dev
-          # upload-plan-destination: github
+          # mode: manual
+          # command: digger plan
+          # project: dev
+          upload-plan-destination: github
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
