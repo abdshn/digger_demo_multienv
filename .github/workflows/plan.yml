@@ -20,7 +20,7 @@ jobs:
           setup-aws: false
           disable-locking: true
           mode: manual
-          # command: digger plan
+          command: digger plan
           project: dev
           upload-plan-destination: github
         env:
