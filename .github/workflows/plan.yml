@@ -21,7 +21,7 @@ jobs:
           disable-locking: true
           # mode: manual
           # command: digger plan
-          project: dev
+          # project: dev
           upload-plan-destination: github
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
