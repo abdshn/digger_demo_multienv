@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: digger run
-        uses: diggerhq/digger@v0.1.31
+        uses: diggerhq/digger@vdevelop
         with:
           setup-aws: false
           disable-locking: true
