@@ -1,7 +1,7 @@
 auto_merge: true
-# projects:
-# - name: dev
-#   dir: dev
+projects:
+- name: dev
+  dir: ./
 #   workflow: my_custom_workflow
 # - name: prod
 #   dir: prod
